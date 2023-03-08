@@ -11,8 +11,8 @@ BIU_REQUIRED_VERSION=2.3.7
 ELL_REQUIRED_VERSION=3.2.4
 
 # biu version distributed with this package
-LOCAL_BIU_FOLDER="biu-2.3.8"
-AC_CONFIG_SUBDIRS([biu-2.3.8])
+LOCAL_BIU_FOLDER="biu"
+AC_CONFIG_SUBDIRS([biu])
 
 # Checks for programs.
 AC_PROG_CXX
