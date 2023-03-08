@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 #
 AC_PREREQ(2.59)
-AC_INIT([LatPack],[1.9.1], [http://www.bioinf.uni-freiburg.de/Software/LatPack/])
+AC_INIT([LatPack],[1.9.2], [http://www.bioinf.uni-freiburg.de])
 AC_CONFIG_SRCDIR([src/latFit.cc])
 AC_CONFIG_AUX_DIR([.])
 
@@ -11,8 +11,8 @@ BIU_REQUIRED_VERSION=2.3.7
 ELL_REQUIRED_VERSION=3.2.4
 
 # biu version distributed with this package
-LOCAL_BIU_FOLDER="biu-2.3.7"
-AC_CONFIG_SUBDIRS([biu-2.3.7])
+LOCAL_BIU_FOLDER="biu-2.3.8"
+AC_CONFIG_SUBDIRS([biu-2.3.8])
 
 # Checks for programs.
 AC_PROG_CXX
@@ -40,7 +40,7 @@ fi
 AM_INIT_AUTOMAKE([subdir-objects])
 
 AC_LANG_CPLUSPLUS
-AC_DEFINE(__cplusplus)
+#AC_DEFINE(__cplusplus)
 
 
 ###############################################################################
