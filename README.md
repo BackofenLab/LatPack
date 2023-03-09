@@ -20,21 +20,21 @@ Available tools:
 	In HFSP Journal, 2 no. 6 pp. 396, 2008.
 	Special issue on protein folding: experimental and theoretical approaches.
 	[DOI:10.2976/1.3027681](https://doi.org/10.2976/1.3027681).
-	Supplementary data can be obtained [HERE](pub-data). 
+- Supplementary data can be obtained [HERE](pub-data). 
 
 ## Documentation
 
 A pdf documentation for each tool is generated in the `doc` subfolder of the package (pdflatex required).
 
--    [LatSeF manual](doc/manual-LatVec.pdf)
--    [LatFold manual](doc/manual-LatFold.pdf)
 -    [LatFit manual](doc/manual-LatFit.pdf)
+-    [LatFold manual](doc/manual-LatFold.pdf)
+-    [LatVec manual](doc/manual-LatVec.pdf)
 
 
 ## Dependencies
 
 - the Bioinformatic Utility library - BIU (**INCLUDED**)
-- the Energy Landscape Library - ELL (**for LatFold only - when resp. configure flag `--enable-latfold' is set**)
+- the [Energy Landscape Library - ELL](http://www.bioinf.uni-freiburg.de/Software/Libraries/ELL/) (**for LatFold only - when resp. configure flag `--enable-latfold' is set**)
 
 
 ## Compilation
