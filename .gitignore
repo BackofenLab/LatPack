@@ -48,14 +48,13 @@ m4/lt~obsolete.m4
 # (which is called by configure script))
 Makefile
 
-.*
+/.*
 COPYING
 NEWS
 README
 INSTALL
+.deps
 
-
-.project
 *.a
 
-/latpack-1.9.1/
+/latpack-*
