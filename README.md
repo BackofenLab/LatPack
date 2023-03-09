@@ -2,6 +2,17 @@
 
 Collection of tools related to modelling and folding simulations of lattice-protein models with arbitrary energy functions
 
+Available tools:
+
+    	
+-    [LatFit - Fitting of a real PDB protein structure onto a lattice](#latfit---pdb-fitting-for-3d-side-chain-lattice-protein-models)
+-    LatFold - Global folding simulation using Pull-moves or Pivot-moves
+-    LatVec - Sequential/Co-tranlational folding simulation
+-    LatConv - Conversion between structure representations (including PDB format)
+-    LatNum - Counting the number of possible non-symmetric structures
+-    LatMap - Compare different structure via cRMSD/dRMSD/GDT
+
+
 ## Main Publication
 
 - Martin Mann, Daniel Maticzka, Rhodri Saunders, and Rolf Backofen.
